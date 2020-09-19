@@ -6,7 +6,7 @@
 
 This project is my attempt of refactoring Horiseon's existing website code to make it more accesible, through HTML5 and CSS best practice, and meeting the acceptance criteria as shown below. 
 
-[View my final project on GitHub pages](https://rubybassi.github.io/code-refactor-assignment)
+[View my final project on GitHub pages](https://rubybassi.github.io/code-refactoring-accessibility/)
 
 Comments were added throughout both HTML and CSS files, highlighting the improved semantic structure and changes.  
 
