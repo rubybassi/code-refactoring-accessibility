@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!--type attribute added to specify the media type of the linked document and relative path amended-->
+    <!--type attribute added to specify the media type of the linked document and relative path set to match project taxonomy-->
     <link rel="stylesheet" type="text/css "href="./css/style.css">
     <!--title updated to be more descriptive and brand focussed-->
     <title>We are Horiseon</title>
 </head>
 
 <body> 
-    <!--div changed to header tag to follow html5 semantics-->
+    <!--div changed to a semantic header element-->
     <header>
         <h1>Hori<span class="seoText">seo</span>n</h1>  
-        <!--div changed to nav tag to follow html5 semantics-->
+        <!--div changed to a semantic nav element-->
         <nav>
             <ul>
                 <li>
@@ -29,56 +29,54 @@
         </nav>
     </header>
     
-    <div class="heroImage"></div>
-    
-    <!--div changed to main tag to follow html5 semantics as it is the most important section of the site-->    
-    <main>
-        <!--div changed to article tag to follow html5 semantics and class changed to id to link nav li and image alt tag added--> 
-        <article id="search-engine-optimization">
+    <div class="heroImage"></div>   
+
+    <!--div changed to semantic main element as it is the most important section on the site-->      
+    <main> 
+        <!--div changed to semantic article element, class changed to id to fix broken nav link, new class added and image alt tag added--> 
+        <article id="search-engine-optimization" class="main-propositions">
             <img src="./images/search-engine-optimization.jpg" alt="notepad with seo written and birdseye view of a desk" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
         </article>
-        <!--div changed to article tag to follow html5 semantics and invalid class removed and image alt tag added--> 
-        <article id="online-reputation-management">
+        <!--div changed to semantic article element, class renamed and image alt tag added--> 
+        <article id="online-reputation-management" class="main-propositions">
             <img src="./images/online-reputation-management.jpg" alt="person using a laptop and phone" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
         </article>
-         <!--div changed to article tag to follow html5 semantics and invalid class removed and image alt tag added--> 
-        <article id="social-media-marketing">
+         <!--div changed to semantic article element, class renamed and image alt tag added--> 
+        <article id="social-media-marketing" class="main-propositions">
             <img src="./images/social-media-marketing.jpg" alt="team sitting around a desk with social media props" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
         </article>
     </main>
     
-    <!--div changed to aside tag to follow html5 semantics and nested divs to article as they are independent, self-contained content. 
-    Empty image alts tags added as decorative only and class case changed to camal.-->
+    <!--div changed to semantic aside element for sidebar and nested divs replaced with articles as the content is independent and self-contained.--> 
+    <!--Empty alts tags added as icons are decorative only-->
     <aside>
-        <article class="benefitLead">
+        <article class="horiseon-benefits">
             <h3>Lead Generation</h3>
             <img src="./images/lead-generation.png" alt="" />
             <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
         </article>
-        <article class="benefitBrand">
+        <article class="horiseon-benefits">
             <h3>Brand Awareness</h3>
             <img src="./images/brand-awareness.png" alt="" />
             <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
         </article>
-        <article class="benefitCost">
+        <article class="horiseon-benefits">
             <h3>Cost Management</h3>
-            <img src="./images/cost-management.png" alt=""/>
+            <img src="./images/cost-management.png" alt="" />
             <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
         </article>
     </aside>
 
-     <!--div changed to footer tag to follow html5 semantic-->
+     <!--div changed to semantic footer element and h2 changed to h4 to follow document outline-->
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
 </body>
 
