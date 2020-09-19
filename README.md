@@ -50,4 +50,4 @@ The following image shows the web application's appearance:
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [headingsMap Chrome extension – screenshot below](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
 
-![headingsApp extension for testing document outline](/01-html-css-git-homework-demo.png)
+![headingsApp extension for testing document outline](/headingsmap_test.png)
