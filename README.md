@@ -1,3 +1,5 @@
+https://img.shields.io/github/stars/rubybassi/code-refactoring-accessibility?style=social
+
 # HTML CSS Git: Code Refactor
 
 ## Background
