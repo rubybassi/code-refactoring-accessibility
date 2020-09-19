@@ -2,9 +2,9 @@
 
 ## Background
 
-This project is an attempt of refactoring Horiseon's existing website code to make it more accesible, through HTML5 and CSS best practice, and meeting the acceptance criteria as shown below. 
+This project is my attempt of refactoring Horiseon's existing website code to make it more accesible, through HTML5 and CSS best practice, and meeting the acceptance criteria as shown below. 
 
-[My Final Project!](https://rubybassi.github.io/code-refactor-assignment)
+[View my final project on GitHub pages](https://rubybassi.github.io/code-refactor-assignment)
 
 ### User Story
 
@@ -30,10 +30,10 @@ This project is an attempt of refactoring Horiseon's existing website code to ma
 
 The following image shows the web application's appearance:
 
-![End Game Mock Up] (/01-html-css-git-homework-demo.png)
-Format: ![website mockup] ()
+![End Game Mock Up](/01-html-css-git-homework-demo.png)
+Format:![website mockup] ()
 
 ### My Development Enviromment:
-* [Visual Studio Code!](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * Terminal
-* [Git!](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
