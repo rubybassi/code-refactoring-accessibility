@@ -2,18 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Added universal color: #ffffff and font-family declaration */
 }
 
 body {
     background-color: #d9dcd6;
 }
 
-/* header and nav elements added to reflect html semantic layout change */
+/* HEADER AND NAV STYLING */ 
+
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    /* Header and nav elements added to reflect html semantic layout change and font-family removed as per universal declaration */
 }
 
 header h1 {
@@ -21,8 +24,9 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seoText {
+.seoText {
     color: #d9dcd6;
+    /* Removed redudant header selector */
 }
 
 header nav {
@@ -33,23 +37,20 @@ header nav {
     font-size: 20px;
 }
 
-/* list-style-type declaration consolidatded  */
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+header nav ul {
     list-style-type: none;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
-/* commented out as default font-size is 16px
-p {
-    font-size: 16px;
-}
-*/ 
+a {
+    text-decoration: none;
+} 
+
+/* HERO SECTION STYLING */
 
 .heroImage {
     height: 800px;
@@ -59,6 +60,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* MAIN CONTENT STYLING */
 
 .float-left {
     float: left;
@@ -70,110 +73,25 @@ p {
     margin-left: 25px;
 }
 
-/* main element added to reflect html semantic layout change */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* Main element added to reflect html semantic layout change */
 }
 
-/* aside element added to reflect html semantic layout change */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-#search-engine-optimization {
+.main-propositions  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    /* Article classes in main section selected and declarations consolidated */
 }
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img {
+.main-propositions img {
     max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
+    /* Images in article classes in main section selected and declarations consolidated */
 }
 
 #search-engine-optimization h2 {
@@ -191,15 +109,52 @@ aside {
     font-size: 36px;
 }
 
-/* footer element added to reflect html semantic layout change */
+/* SIDEBAR STYLING */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /* Aside element added to reflect html semantic layout change */
+}
+
+.horiseon-benefits {
+    margin-bottom: 32px;
+    /* Class selectors consolidated */
+}
+
+.horiseon-benefits h3 {
+    text-align: center;
+    /* Text-align declaration consolidated */
+}
+
+.horiseon-benefits img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    /* Article images selected and declarations consolidated */
+}
+
+/* FOOTER STYLING */
+
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /* Footer element added to reflect html semantic layout change and and font-family removed as per universal declaration */
 }
 
-/* footer and h4 element added to reflect html semantic layout change */
 footer h4 {
     font-size: 20px;
+    /* Footer and h4 element added to reflect html semantic layout change */
+}
+
+footer > * {
+    color: black;
+    /* Resetted footer fonts to black from universal override by selecting all child elements if footer */
 }
