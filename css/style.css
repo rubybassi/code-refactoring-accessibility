@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header and nav elements added to reflect html semantic layout change */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,13 +33,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
+/* list-style-type declaration consolidatded  */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
@@ -46,9 +45,11 @@ a {
     text-decoration: none;
 }
 
+/* commented out as default font-size is 16px
 p {
     font-size: 16px;
 }
+*/ 
 
 .heroImage {
     height: 800px;
@@ -69,12 +70,14 @@ p {
     margin-left: 25px;
 }
 
+/* main element added to reflect html semantic layout change */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* aside element added to reflect html semantic layout change */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,49 +89,49 @@ aside {
     background-color: #2589bd;
 }
 
-.benefitLead {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefitBrand {
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefitCost {
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefitLead h3 {
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefitBrand h3 {
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefitCost h3 {
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefitLead img {
+.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefitBrand img {
+.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefitCost img {
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -188,6 +191,7 @@ aside {
     font-size: 36px;
 }
 
+/* footer element added to reflect html semantic layout change */
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +199,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* footer and h4 element added to reflect html semantic layout change */
+footer h4 {
     font-size: 20px;
 }
