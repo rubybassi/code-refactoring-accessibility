@@ -8,7 +8,7 @@ This project is my attempt of refactoring Horiseon's existing website code to ma
 
 [View my final project on GitHub pages](https://rubybassi.github.io/code-refactoring-accessibility/)
 
-Comments were added throughout both HTML and CSS files, highlighting the improved semantic structure and changes. Images were resized for site speed performance after testing on Google's PageSpeed Insight tool; i managed to improve the score to 98%.
+Comments were added throughout both HTML and CSS files, highlighting the improved semantic structure and changes. Images were resized for site speed performance after testing on Google's PageSpeed Insight tool; i managed to improve the score to 94%.
 
 ### Challenges
 
