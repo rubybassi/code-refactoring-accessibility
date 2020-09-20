@@ -44,12 +44,15 @@ If you have feedback / advice on the above, please feel free to comment.
 
 The following image shows the web application's appearance:
 
-![End Game Mock Up](/01-html-css-git-homework-demo.png)
+![End Game Mock Up](images/01-html-css-git-homework-demo.png)
 
 ### My Development Enviromment:
 * [Visual Studio Code](https://code.visualstudio.com/)
 * Terminal
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [headingsMap Chrome extension – screenshot below](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
+* [headingsMap Chrome extension – first image below](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
+* [Google Page Speed Insights report - second image below](https://developers.google.com/speed/pagespeed/insights/)
 
-![headingsApp extension for testing document outline](/headingsmap_test.png)
+![headingsApp extension for testing document outline](/images/headingsmap_test.png)
+
+![Google Page Speed Insight report](/images/google-speed-score.png)
